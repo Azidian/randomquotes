@@ -39,9 +39,9 @@ docker login -u $DOCKER_USER -p $DOCKER_PASS
 
 - name: Build the Docker image
 
-run: docker build . --file Dockerfile --tag Azidian/randomquotes:latest
+run: docker build . --file Dockerfile --tag azidian/randomquotes:latest
 
 
 - name: Docker Push
 
-run: docker push Azidian/randomquotes
+run: docker push azidian/randomquotes
